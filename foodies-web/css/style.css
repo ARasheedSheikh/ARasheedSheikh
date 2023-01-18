@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(233, 212, 212);
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+    background-color: rgb(44,35,18);
+    border-radius: 0;
+    border: 0;
+    
+}
+#logo-image {
+    background: url(/images/logo.PNG) no-repeat;
+    width: 132px;
+    height: 100px;
+    margin: 10px 15px 10px 0px;
+}
+.navbar-brand{
+    padding-top: 25px;
+}
+.navbar-brand a {
+    font-family: 'Lora', serif;
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    line-height: .90;
+}
+.navbar-brand a:hover , .navbar-brand a:focus {
+    text-decoration: underline solid 3px red;
+    background: rgb(247, 132, 24);
+   }
+.navbar-brand img {
+    width: 20px;
+    height: 20px;
+}  
+.navbar-brand p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+#nav-list{
+    padding-top: 10px;
+}
+#nav-list a:hover {
+    text-decoration: underline solid 3px red;
+    background: rgb(247, 132, 24);
+   }
+#nav-list a {
+    color: #fff;
+    text-align: center;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+#phone{
+    margin-top: 5px;
+}
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+#phone div{
+    text-align: right;
+    padding-right: 15px;
+}
+.navbar-header button.navbar-toggle , .navbar-header .icon-bar {
+    border: 1px solid #fff; 
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -15px;
+}
+.navbar-header button.navbar-toggle:hover , .navbar-header button.navbar-toggle:focus {
+   background-color:  rgb(247, 132, 24);
+}
+
+@media (max-width:1200px) {
+    
+}
+@media (min-width: 992px) and (max-width:1199px){
+    #logo-image {
+        background: url(/images/logo-medium.png) no-repeat;
+        width: 100px;
+        height: 78px;
+        margin: 5px 5px 5px 0px;
+    }
+
+}
+@media (min-width: 768px) and (max-width:991px){
+    
+}
+@media (max-width: 767px) {
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 5vh;
+    }
+    .navbar-brand p{
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    .navbar-brand p img{
+        height: 20;
+    }
+    #collapsable-nav a {
+        font-size: 1.8em;
+    }
+    #collapsable-nav a span{
+        font-size: 0.8em;
+        margin-right: 5px;
+    }
+    #logo-image {
+        background: url(/images/logo-medium.png) no-repeat;
+        width: 100px;
+        height: 78px;
+        margin: 5px 5px 5px 0px;
+    }
+
+}
