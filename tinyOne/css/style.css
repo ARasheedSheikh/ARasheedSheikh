@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+/* Header Section */
+.header {
+    background-color: rgb(247, 222, 6);
+    color: black;
+}
+.navbar {
+    padding: 0 0 1rem;
+}
+.navbar-nav {
+    padding-bottom: 12px 20px;
+}
+
+#sec1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding-bottom: 1%;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    margin-top: -10px;
+}
+.heading {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.2rem;
+    margin: 5% auto 2%;
+    padding-top: 5%;
+}
+.header h1 {
+    margin: 15% auto 6%;
+}
+.head-logos{
+    padding: 0px 10px 0 0px;
+}
+.iphone{
+    width: 54%;
+    margin-left: 29%;   
+}
+.carousel-indicators {
+    position: static;
+}
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+ }
+ 
+/* Section2 */
+
+.white {
+    background-color: #fff;
+    color: black;
+}
+.row .row div {
+    text-align: left;
+}
+.row .row {
+    margin: 0px -40px 0px -22px;
+}
+.text p{
+    color: #8f8f8f;
+}
+.featureheadingtext {
+    padding: 0 100px;
+}
+.featuresdiv {
+    padding: 3% 1.5%;
+}
+#features h3{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* section 3 */
+#footer h2 {
+    color: rgb(247, 222, 6);
+}
+.black{
+    background-color: black;
+}
+input {
+    padding: 10px 0px;
+    width: 67%;
+    border-radius: 6px;
+}
+#footer button {
+    margin-left: 1%;
+    background-color: rgb(247, 222, 6);
+    color: black;
+}
+#footer img {
+    margin: 4% 0;
+}
+#footer .row {
+    text-align: left;
+    padding: 5% 0;
+}
+#footer section {
+    color: #8f8f8f;
+}
+
+@media (max-width:1199px) {
+    .iphone{
+        width: 50%;
+        margin-left: 16%;   
+    }
+}
+
+@media (max-width: 991px){
+    .navbar {
+        padding-bottom: 0%;
+    }
+    .header h1 {
+        margin-top: 3%;
+    }
+    .row .row {
+        margin: 0px -15px;
+    }
+    #footer section {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 767px) {
+    #footer section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #footer section hr {
+        width: 50%;
+        margin: 20px 125px;
+    }
+    
+}
